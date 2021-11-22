@@ -1,0 +1,10 @@
+CREATE TABLE members(
+id int,
+Name varchar(50),
+DOB date,
+age int,
+gender varchar(1),
+Phone varchar(12),
+Email varchar(40)
+);
+

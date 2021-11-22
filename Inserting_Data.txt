@@ -1,0 +1,7 @@
+
+INSERT INTO members(id,Name,DOB,age,gender,Phone,Email)
+Values(1,"Razor","1996-08-21",20,"M",63598742,"razorback@hotmail.com"),
+(2,"Kamini","1998-03-21",19,"F",63598742,"kamini@hotmail.com"),
+(3,"Kajal","1999-02-21",18,"F",63598742,"Kajal@hotmail.com"),
+(4,"Rafiq","1999-09-02",18,"M",63598742,"raka@hotmail.com"),
+(5,"Bala Singh","1999-07-29",18,"M",63598742,"bsrathoad@hotmail.com");
