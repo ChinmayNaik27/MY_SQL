@@ -1,0 +1,10 @@
+create table Courses (
+id int not null auto_increment,
+Name varchar(50) not null,
+DOB date,
+age int not null check(age>=18),
+gender varchar(1),
+Phone Varchar(20),
+Email varchar(60), 
+course varchar(30) not null,
+primary key (id));

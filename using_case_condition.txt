@@ -1,0 +1,7 @@
+select id,name,age,
+case when age >= 18  and age <= 21 then "eligible for spl activites"
+when age >= 21  and age <= 23 then "eligible Tech activites"
+when age >= 18  and age <= 27 then "eligible for post graduation"
+Else "Please enter vaild age"
+end as Remarks
+from members;
